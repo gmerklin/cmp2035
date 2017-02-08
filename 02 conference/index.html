@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-    <!--Here's what goes at the top of the page -->
+    
+<!--Here's what goes at the top of the page -->
+    
     <head>
         <title>Conference on Conferences</title>
         <meta name="description" content="First Conference on Conferences" />
@@ -11,10 +13,10 @@
     <body>
         <h1>First International Conference on Conferences&trade;, March 6-8, 2017</h1>
         <h2>McCormick Place, Chicago, Illinois</h2>
-        <p>The first-of-its-kind <em>International Conference on Conferences&trade;</em> will enable conferees to explore what makes a conference a conference, how to combat the mortal ennui that rears its ugly head after three days of conferenceing, and how to survive the blight of the Trade Show Floor.</p>
+        <p>The first-of-its-kind <em>International Conference on Conferences&trade;</em> will enable conferees to explore what makes a conference a conference, how to combat the mortal ennui that rears its ugly head after three days of conferenceing, and how to survive the soul-crushing blight of the Trade Show Floor.</p>
         <p>Sign up today!</p>
  
-        <!--We start with a table outlining the technical program -->
+<!--We start with a table outlining the technical program -->
         
     <h2>Technical Program</h2>
     <table>
@@ -27,9 +29,11 @@
             <th>Room</th>
             </tr>
         </thead>
+        
         <tbody>
+            
         <tr>
-            <th> Monday</th>
+            <th>Monday</th>
             <td>9 am</td>
             <td>Opening Remarks</td>
             <td>Arthur King</td>
@@ -60,7 +64,7 @@
             <th> </th>
             <td>Noon</td>
             <td>Virgil's Guide to the Trade Show</td>
-            <td>D. Aligheri</td>
+            <td>D. Alighieri</td>
             <td>Room 101</td>
         </tr>
         <tr>
@@ -71,7 +75,7 @@
             <td>Conference Hall 1</td>
         </tr>
         <tr>
-            <th>Wednesday </th>
+            <th>Wednesday</th>
             <td>9 am</td>
             <td>A Brief History of Conferences (Part II)</td>
             <td>R. Van Winkle</td>
@@ -107,30 +111,36 @@
             <th>Room</th>
             </tr>
         </thead>
-         <tr>
+            
+        <tbody> 
+            
+        <tr>
             <th>Monday</th>
             <td>10:30 am</td>
             <td>Choosing Chairs: Comfy or Not?</td>
             <td>Room 110</td>
         </tr>
-             <tr>
+        <tr>
             <th></th>
             <td>1:30 pm</td>
             <td>The Existential Hellscape of the Trade Show</td>
             <td>Room 110</td>
         </tr>
-             <tr>
+        <tr>
             <th>Tuesday</th>
             <td>10:30 am</td>
             <td>Making Posters That Aren't Awful</td>
             <td>Room 110</td>
         </tr>
-             <tr>
+        <tr>
             <th></th>
             <td>1:30 pm</td>
             <td>Fixing Expense Reports</td>
             <td>Room 110</td>
         </tr>
+            
+        </tbody>
+            
         </table>
         
 <!-- this segment includes a map of the conference site, an iframe from google maps -->
@@ -139,33 +149,59 @@
         <p>The <em>First International Conference on Conferences&trade;</em> will be held at McCormick Place, Chicago, conveniently located near absolutely nothing at all.</p>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.871039538657!2d-87.61896049017098!3d41.85260250074511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2b80def39763%3A0x5d8b4048f3e507b2!2sMcCormick+Place!5e0!3m2!1sen!2sus!4v1486572208324" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
   
-<!-- this section includes the registration and payment sections. Forms and pulldowns. -->
+<!-- this section includes the registration and payment sections. Forms radiobuttons checkboxes and pulldowns. -->
         
         <h2>Registration</h2>
     <form action="http://www.example.com/review.php" method="get">
-        <fieldset>
-            <legend>Your details</legend>
+        <fieldset><legend>Your details</legend>
+            <p>
+            
             <label>First Name:<input type="text" name="name" size="15" maxlength="30"/></label><br />
             <label>Last Name:<input type="text" name="name" size="15" maxlength="30"/></label><br />
             <label>Address:<input type="text" name="name" size="15" maxlength="30"/></label><br />
-        <label>City:<input type="text" name="name" size="15" maxlength="30"/></label><br />
-        <label>State:<input type="text" name="name" size="2" maxlength="2"/></label><br />
-        <label>Zip:<input type="text" name="name" size="5" maxlength="5"/></label><br />
-       <label> E-mail:<input type="email" name="email" size="15" maxlength="30"/></label>
+            <label>City:<input type="text" name="name" size="15" maxlength="30"/></label><br />
+            <label>State:<input type="text" name="name" size="2" maxlength="2"/></label><br />
+            <label>Zip:<input type="text" name="name" size="5" maxlength="5"/></label><br />
+            <label> E-mail:<input type="email" name="email" size="15" maxlength="30"/></label><br />
+            
+            How you are getting here:
+            <input id="flying" type="radio" name="transport" value="f">
+            <label for"flying">Flying</label>
+            <input id="walking" type="radio" name="transport" value="w">
+            <label for"walking">Walking</label>
+            <input id="driving" type="radio" name="transport" value="d">
+            <label for"driving">Driving</label> <br />
+           
+            I will need:<br />
+            <input type="checkbox" name="service" value="lodging" />Lodging
+            <input type="checkbox" name="service" value="Dining" />Dining
+            <input type="checkbox" name="service" value="Psychiatry" />Psychiatry
+            
+            </p> 
         </fieldset>
+        
+<!-- here's the payment area -->
+        
         <fieldset><legend>Your payment</legend>
-        <p>
-       Fee=300 $, &euro;, &pound;<br />
-        Pay using:
+            <p>
+            
+            Fee=300 $, &euro;, &pound;<br />
+            Pay using:
       
-        <select name="credit">
-        <option value="mastercard">MasterCard</option>
-        <option value="Visa">Visa</option>
-        <option value="mastercard">American Express</option>
-        </select><br />
+            <select name="credit">
+            <option value="mastercard">MasterCard</option>
+            <option value="Visa">Visa</option>
+            <option value="mastercard">American Express</option>
+            </select><br />
+
             <label>Number:<input type="text" name="name" size="15" maxlength="30"/></label><br />
-              </p>
-            </fieldset>
+
+<!--and a submit button at the end -->
+                
+            <input type="submit" name="submit" value="Submit" />
+        
+        </p>
+        </fieldset>
         </form>
     
     </body>
