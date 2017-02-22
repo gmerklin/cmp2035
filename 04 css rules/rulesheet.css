@@ -1,25 +1,30 @@
 *{
-/*    background: rgb(230, 230, 230);*/
+    /*    background: rgb(230, 230, 230);*/
 }
 
 body{
-        font-family: Helvetica, Verdana, sans-serif;
+    font-family:fantasy;
+    font-weight: 800;
+    background-color: rgb(100, 230, 230);
 }
 
 h1{
-
-    color:darkgreen;
+    max-width: 1000px;
+    font-size: 280%;
+    color:orangered;
     margin: 10px;
     padding: 10px;
 }
 
 h2{
-   color: darkcyan;
+    font-size: 200%;
+    color: hotpink;
     margin: 20px;
 }
 
 h3{
-    color:forestgreen;
+    font-size: 140%;
+    color:deeppink;
     margin: 20px;
 }
 
@@ -30,10 +35,10 @@ p{
 
 img{
     margin: 10px auto 10px auto;
-    border-color: black;
+    border-color: red;
     border-style: solid;
     border-width: 2px; 
-    box-shadow: 5px 5px 5px #777777;
+    box-shadow: 15px 15px 15px orange;
 }
 
 a{
@@ -61,12 +66,12 @@ input[type=email]{
 }
 
 ol{
-    list-style-type: decimal-leading-zero;
+    list-style-type:lower-latin;
     max-width:650px;
 }
 
 ul{
-    list-style-type: square;
+    list-style-image: url(images/pineapple.png);
 }
 
 table{
@@ -80,7 +85,8 @@ th, td{
 
 th{
     text-transform: uppercase;
-    font-size: 80%;
+    font-size: 90%;
+    font-weight: 900;
     letter-spacing: 0.1em;
     text-align: left;
 }
@@ -90,7 +96,7 @@ th.top{
 }
 
 tr.even{
-    background-color: #efefef;
+    background-color: rgb(90, 220, 220);
 }
 
 iframe{
