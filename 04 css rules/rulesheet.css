@@ -1,40 +1,51 @@
-*{
-/*    background: rgb(230, 230, 230);*/
-    font-family: Helvetica, Verdana, sans-serif;
 
+
+body {
+    background-color: rgb(230, 230, 230);
+    font-family: Georgia, Times, serif;
 }
 
-h1{
-
-    color:darkgreen;
+h1 {
+    text-transform: uppercase;
+    max-width: 1000px;
+    letter-spacing: .1em;
+    font-size: 280%;
+    color:white;
+    text-shadow: 2px 2px 7px #111111;
     margin: 10px;
     padding: 10px;
 }
 
-h2{
-   color: darkcyan;
+h2 {
+    font-size: 200%;
+    color: white;
+    text-shadow: 2px 2px 7px #111111;
     margin: 20px;
 }
 
-h3{
-    color:forestgreen;
+h3 {
+    font-size: 140%;
+    color:antiquewhite;
+    text-shadow: 2px 2px 7px #111111;
     margin: 20px;
 }
 
 p{
+    line-height: 1.4em;
     max-width: 650px;
     margin: 20px
 }
 
-img{
+img {
     margin: 10px auto 10px auto;
-    border-color: black;
+    border-color: red;
     border-style: solid;
-    border-width: 2px; 
-    box-shadow: 5px 5px 5px #777777;
+    border-width: 5px; 
+    box-shadow: 15px 15px 15px green;
 }
 
 a{
+    font-weight: 800;
     color: darkblue;
 }
 
@@ -58,55 +69,59 @@ input[type=email]{
     border-style: inset;
 }
 
-ol{
-    list-style-type: decimal-leading-zero;
+ol {
+    list-style-type:upper-roman;
     max-width:650px;
 }
 
-ul{
-    list-style-type: square;
+ul {
+/*    font-family:courier,monospace;*/
+    list-style: disc;
 }
 
-table{
+table {
     width:800px;
     margin: 20px;
 }
 
-th, td{
+th, td {
     padding: 8px 8px 8px 8px;
 }
 
-th{
+th {
     text-transform: uppercase;
     font-size: 80%;
     letter-spacing: 0.1em;
     text-align: left;
 }
-th.top{
+
+th.top {
     border-bottom: 2px solid #111111;
     text-align: left
 }
 
-tr.even{
-    background-color: #efefef;
+tr.even {
+    background: #white;
 }
 
-iframe{
+iframe {
     margin: 20px;
 }
 
-fieldset{
+fieldset {
+    width: 600px;
+    background-color:bisque;
     margin: 20px;
     border-radius: 5px;
 }
 
-legend{
-    padding: 10px;
-    background-color:gainsboro;
-    border-radius:10px
+legend {
+    padding: 20px;
+    background-color: white;
+    border-radius: 50px 20px;
 }
 
-input[type=submit]{
+input[type=submit] {
     font-weight: bold;
     font-size: 20px;
     padding: 5px;
@@ -116,6 +131,6 @@ input[type=submit]{
     text-shadow: 0px 1px 1px #ffffff;
 }
 
-input[type=submit]:hover{
+input[type=submit]:hover {
     background-color:limegreen;
 }
