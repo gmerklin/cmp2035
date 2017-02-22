@@ -1,7 +1,9 @@
 *{
 /*    background: rgb(230, 230, 230);*/
-    font-family: Helvetica, Verdana, sans-serif;
+}
 
+body{
+        font-family: Helvetica, Verdana, sans-serif;
 }
 
 h1{
