@@ -694,8 +694,8 @@ section.body {
 
 .global-header {
     *zoom: 1;
-    border-bottom: 1px #ccc solid;
-    background: #eee;
+    border-bottom: 2px #ccc solid;
+    background: #dfd;
     height: 100%;
     line-height: 1.925em;
     min-height: 1.1em;
