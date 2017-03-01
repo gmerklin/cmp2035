@@ -476,7 +476,8 @@ section.body {
     float: left;
     line-height: 1;
     margin: 0 5px;
-    padding: 0.25em;
+    padding: 0.25em 0.35em;
+    font-family: courier;
     text-decoration: none
 }
 
