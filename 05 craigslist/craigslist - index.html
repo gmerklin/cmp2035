@@ -242,15 +242,17 @@ var zoomToPosting = null;
                 
                 <div class="form-tab js-only"><span class="search-open" title="hide search">«</span><span class="search-closed" title="show search">»</span></div>
                 
-                <input type="text" placeholder="search rooms for rent &amp; shares available" name="query" id="query" value="" autocorrect="off" autocapitalize="off" autocomplete="off" data-autocomplete="search" class="flatinput ui-autocomplete-input">
+                <input type="text" placeholder="search rooms for rent" name="query" id="query" value="" autocorrect="off" autocapitalize="off" autocomplete="off" data-autocomplete="search" class="flatinput ui-autocomplete-input">
 
                 <button type="submit" class="searchbtn">
                     <span class="icon icon-search" aria-hidden="true"></span>
                     <span class="screen-reader-text">press to search craigslist</span>
                 </button>
-                <div class="savealert">
+                    <!--
+               <div class="savealert">
                             <a class="saveme" data-action="save" href="https://accounts.craigslist.org/login?rt=L&amp;rp=%2Fsavesearch%2Fsave%3FURL%3Dhttps%253A%252F%252Fboston%252Ecraigslist%252Eorg%252Fsearch%252Froo" title="save this search">save search</a>
                         </div>
+                            -->
             </div>
 
             <div class="search-options-container">
@@ -536,7 +538,35 @@ var zoomToPosting = null;
                         </li>
                 </ul>
         </div>
-
+<div class="searchgroup"><label class="private_room">
+        <input type="checkbox" name="private_room" value="1" class="autosubmit">
+    private room
+</label><br>
+<label class="private_bath">
+        <input type="checkbox" name="private_bath" value="1" class="autosubmit">
+    private bath
+</label><br>
+<label class="pets_cat">
+        <input type="checkbox" name="pets_cat" value="1" class="autosubmit">
+    cats ok
+</label><br>
+<label class="pets_dog">
+        <input type="checkbox" name="pets_dog" value="1" class="autosubmit">
+    dogs ok
+</label><br>
+<label class="is_furnished">
+        <input type="checkbox" name="is_furnished" value="1" class="autosubmit">
+    furnished
+</label><br>
+<label class="no_smoking">
+        <input type="checkbox" name="no_smoking" value="1" class="autosubmit">
+    no smoking
+</label><br>
+<label class="wheelchaccess">
+        <input type="checkbox" name="wheelchaccess" value="1" class="autosubmit">
+    wheelchair access
+</label><br>
+</div>
             <div class="searchgroup">
                 <span class="searchfieldlabel">miles from zip</span>
                 <input type="number" max="200" min="0" size="3" inputmode="numeric" class="flatinput searchInput search_distance" placeholder="miles" name="search_distance" value="">
@@ -568,35 +598,7 @@ var zoomToPosting = null;
  </select>
 </div>
 
-        <div class="searchgroup"><label class="private_room">
-        <input type="checkbox" name="private_room" value="1" class="autosubmit">
-    private room
-</label><br>
-<label class="private_bath">
-        <input type="checkbox" name="private_bath" value="1" class="autosubmit">
-    private bath
-</label><br>
-<label class="pets_cat">
-        <input type="checkbox" name="pets_cat" value="1" class="autosubmit">
-    cats ok
-</label><br>
-<label class="pets_dog">
-        <input type="checkbox" name="pets_dog" value="1" class="autosubmit">
-    dogs ok
-</label><br>
-<label class="is_furnished">
-        <input type="checkbox" name="is_furnished" value="1" class="autosubmit">
-    furnished
-</label><br>
-<label class="no_smoking">
-        <input type="checkbox" name="no_smoking" value="1" class="autosubmit">
-    no smoking
-</label><br>
-<label class="wheelchaccess">
-        <input type="checkbox" name="wheelchaccess" value="1" class="autosubmit">
-    wheelchair access
-</label><br>
-</div><div class="searchgroup"><div class="search-attribute hide-list" data-attr="laundry">
+        <div class="searchgroup"><div class="search-attribute hide-list" data-attr="laundry">
     <div class="title ">
         <span class="plus">+</span><span class="minus">–</span> laundry
     </div>

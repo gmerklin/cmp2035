@@ -3,7 +3,7 @@
     display: inline-block;
     *display: inline;
     *zoom: 1;
-    background-image: url(/images/sprite-16px.png);
+    background-image: url(./images/sprite-16px.png);
     background-repeat: no-repeat;
     cursor: pointer;
     height: 16px;
@@ -701,7 +701,7 @@ section.body {
     min-height: 1.1em;
     padding: .3125em 0;
     width: 100%;
-    z-index: 1003
+    z-index: 1005
 }
 
 .global-header:before, .global-header:after {

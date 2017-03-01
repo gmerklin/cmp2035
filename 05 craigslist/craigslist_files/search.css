@@ -392,7 +392,7 @@ span.cur_day {
         display: block;
         margin-bottom: 0;
         max-width: 1000px;
-        padding-top: 6.9em;
+        padding-top: 325px;
         padding-bottom: 0
     }
 
@@ -432,7 +432,7 @@ span.cur_day {
     margin-left: 8px;
     position: relative;
     top: 2px;
-    z-index: 1003
+    z-index: 1003;
 }
 
 .search-options-container button {
@@ -540,7 +540,8 @@ span.cur_day {
 
 .searchgroup {
     margin: 10px 0;
-    width: auto
+    width: 190px;
+    float:left;
 }
 
 .searchgroup .searchfieldlabel {
@@ -903,7 +904,7 @@ span.cur_day {
         -ms-transition: margin-left 300ms;
         -o-transition: margin-left 300ms;
         transition: margin-left 300ms;
-        background-color: #fff;
+        background-color: #ddd;
         border-bottom: 0;
         float: left;
         font-size: .9em;
@@ -954,7 +955,7 @@ span.cur_day {
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
         box-shadow: none;
-        background-color: #fff;
+        background-color: #ddd;
         border: 0;
         display: block;
         margin: 0;
@@ -1001,13 +1002,13 @@ span.cur_day {
 
 @media only screen and (min-width: 840px) {
     .search-options-container {
-        height: 100%;
+        height: 250px;
         left: 0;
         margin: 0;
-        overflow-y: scroll;
+        overflow-y:scroll;
         position: fixed;
         top: 3em;
-        width: 190px
+        width: 75%;
     }
 
     .search-options {
@@ -1139,7 +1140,7 @@ span.cur_day {
     padding: 0 .5em;
     position: relative;
     white-space: nowrap;
-    z-index: 1002
+    z-index: 1004
 }
 
 .savealert {
@@ -1193,7 +1194,7 @@ span.cur_day {
         -ms-transition: margin-left 300ms;
         -o-transition: margin-left 300ms;
         transition: margin-left 300ms;
-        margin-left: 220px;
+        margin-left: 75%;
         min-height: 0
     }
 
@@ -1217,7 +1218,7 @@ span.cur_day {
 
 @media only screen and (min-width: 840px) {
     .form-tab {
-        background-color: #fff;
+        background-color: #ddd;
         left: -11px;
         *left: -17px;
         padding: 1em 0 0.1em;
@@ -1226,12 +1227,13 @@ span.cur_day {
     }
 
     .querybox {
-        background-color: #fff;
+        background-color: #ddd;
         display: block;
         *margin-left: 0;
         padding-top: 1.9em;
         position: fixed;
-        width: 80%
+        width: 25%;
+            padding-bottom: 215px;
     }
 
     .querybox .savealert {
@@ -1476,7 +1478,7 @@ span.cur_day {
 }
 
 .result-date {
-    color: gray;
+    color: black;
     font-size: 11px;
     line-height: 22px;
     margin-right: 2px
@@ -1506,7 +1508,7 @@ span.cur_day {
 }
 
 .result-meta .result-tags {
-    color: orange
+    color: firebrick;
 }
 
 .result-meta .result-tags .maptag {
@@ -1921,7 +1923,7 @@ label.disabled {
     }
 
     .hasPic {
-        background-color: #fff;
+/*        background-color: #fff;*/
         padding-right: .25em
     }
 
@@ -1936,7 +1938,7 @@ label.disabled {
         -o-transition: margin-left 300ms;
         transition: margin-left 300ms;
         margin-top: 10px;
-        margin-left: 220px;
+        margin-left: 20px;
         width: auto
     }
 
