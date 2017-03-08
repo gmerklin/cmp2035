@@ -14,7 +14,8 @@ html {
 	padding: 0;
 	}
 body { 
-	font: 75% georgia, sans-serif;
+	font-family: "futura-pt", sans-serif;
+    font-weight: 400;
 	line-height: 1.88889;
 	color: #555753; 
 	background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
@@ -26,12 +27,13 @@ p {
 	text-align: justify;
 	}
 h3 { 
-	font: italic normal 1.4em georgia, sans-serif;
+	font-family: "futura-pt", sans-serif;
+    font-weight: 700;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
 	color: #7D775C;
 	}
-a:link { 
+/*a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
 	color: #B7A5DF;
@@ -50,7 +52,7 @@ abbr {
 	}
 
 
-/* specific divs */
+ specific divs 
 .page-wrapper { 
 	background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left; 
 	padding: 0 175px 0 110px;  
@@ -191,4 +193,4 @@ footer a:link, footer a:visited {
 	right: 0; 
 	width: 148px; 
 	height: 110px;
-	}
+	}*/
