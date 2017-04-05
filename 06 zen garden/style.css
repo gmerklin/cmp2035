@@ -22,13 +22,23 @@ body {
     font-size: 0.9em ;
     /*	line-height: 1.88889;*/
     color: black ; 
-/*    background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; */
+    /*    background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; */
     margin: 0; 
     padding: 0;
 }
 p { 
     margin-top: 0; 
     text-align: left;
+}
+a:link {
+    text-decoration: none ;
+}
+a:hover {
+    color: blue ;
+}
+abbr{
+    text-decoration: underline ;
+    text-decoration-style: dotted ;
 }
 header{
     background-color: yellow ;
@@ -85,6 +95,10 @@ h3 {
 
 section.intro{
     height: 526px ;
+}
+div.main h3{
+    margin-top: 0px ;
+    margin-bottom: 12px ;
 }
 div.summary{
     height: 116px ;
@@ -156,8 +170,12 @@ div.zen-resources ul{
     list-style: none ;
     padding-left: 15px ;
 }
-div.zen-resources a{
+div.zen-resources a:link{
     color: white ;
+    text-decoration: none ;
+}
+div.zen-resources a:hover{
+    color: blue ;
     text-decoration: none ;
 }
 
@@ -166,10 +184,6 @@ div.explanation{
     height: 256px ;
     margin-left: 384px ;
 
-}
-div.explanation h3{
-    margin-bottom: 12px ;
-    margin-top: 0px ;
 }
 
 div.design-archives{
@@ -189,9 +203,12 @@ div.design-archives ul{
     list-style: none ;
     padding-left: 15px ;
 }
-div.design-archives a{
+div.design-archives a:link{
     color: black ;
     text-decoration: none ;
+}
+div.design-archives a:hover{
+    color: blue ;
 }
 
 div.participation{
@@ -200,10 +217,7 @@ div.participation{
     width: 600px ;
     /*    padding-top: 12px ;*/
 }
-div.participation h3{
-    margin-bottom: 12px ;
-    margin-top: 0px ;
-}
+
 div.participation::after{
     content: " " ;
     width: 128px ;
@@ -230,7 +244,7 @@ div.benefits h3{
 }
 div.benefits p{
     margin-right: 50px ;
-/*    height: 128px ;*/
+    /*    height: 128px ;*/
     padding-left: 400px;
 }
 
@@ -241,21 +255,29 @@ div.requirements{
 
 div.requirements p:last-child{
     width: 1024px ;
-    height: 32px ;
+    height: 35px ;
     color: white ;
     background: black ;
     text-align: center ;
+    padding-top: 5px ;
     margin-left: 0px ;
     position: relative ;
-left: -128px ;
+    left: -128px ;
     top: 100px ;
+}
+div.requirements p:last-child a:link{
+    color: white ;
+    text-decoration: underline ;
+}
+div.requirements p:last-child a:hover{
+    color: lightblue ;
 }
 div.design-selection{
     position: absolute ;
     top: 1190px ;
     left: 768px ;
     width: 196px ;
-    height: 512px ;
+    height: 400px ;
     padding-top: 50px ;
     padding-left: 60px ;
     background: yellow;
@@ -264,18 +286,29 @@ div.design-selection ul{
     list-style: none ;
     padding-left: 10px ;
 }
-div.design-selection a.design-name {
+div.design-selection a {
     color: black ;
     text-decoration: none ;
+}
+div.design-selection a:visited{
+    color: purple;
+}
+div.design-selection a:hover{
+    color: blue ;
 }
 div.design-selection a.design-name:after {
     content: "\a      ";
     white-space: pre;
 }
+/*
+div.design-selection a.designer-name{
+
+}
+*/
 footer{
     background: red ;
     width: 170px ;
-    height: 40px ;
+    height: 20px ;
     text-align: center ;
     padding: 12px ;
     position: relative ;
@@ -284,6 +317,10 @@ footer{
 footer a{
     color: black ;
 }
+a:hover {
+    color: blue ;
+}
+
 /*a:link { 
 font-weight: bold; 
 text-decoration: none; 
