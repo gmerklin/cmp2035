@@ -15,6 +15,10 @@ html {
 }
 div.page-wrapper{
     width: 1024px ;
+    position: relative ;
+    margin-left: auto ;
+    margin-right: auto ;
+    background-color: white ;
 }
 body { 
     font-family: "futura-pt", sans-serif;
@@ -22,6 +26,7 @@ body {
     font-size: 0.9em ;
     /*	line-height: 1.88889;*/
     color: black ; 
+    background-color: gainsboro ;
     /*    background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; */
     margin: 0; 
     padding: 0;
